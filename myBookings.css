@@ -1,0 +1,13 @@
+body{
+  background-image: url(https://miro.medium.com/max/5036/1*XCZyhvyncuZX_d4plgW1gg.jpeg);
+	background-position: center;
+	margin: 0px;
+	background-size:cover;
+}
+h1{
+  font-family:Lucida Calligraphy;
+	background-color:rgba(0,0,0,0.7);
+	text-align:center;
+	font-size: 80pt;
+	color:#99FFFF;
+}
