@@ -11,3 +11,70 @@ h1{
 	font-size: 80pt;
 	color:#99FFFF;
 }
+#options{
+				background-position:center;
+				background-size:100% auto;
+				text-align:center;
+				padding:1px;
+				position:relative;
+				top:-70px;
+				/*background-color:rgba(0,0,0,0.9);*/
+}
+#options_button{
+		margin:-2px;
+		color:#99FFFF;
+		padding-top:10px;
+		background-color:rgba(0,0,0,0.9);
+		border-right:solid thick rgba(0,0,0,1);
+		display:inline-block;
+		text-align:center;
+		height:30px;
+		width:300px;
+		cursor:pointer;
+}
+.booking-page{
+	padding: 10% 0 0;
+	margin:auto;	
+}
+.form{
+	color:#fff;
+	position:relative;
+	z-index:2;
+	background: rgba(0,0,0,0.7);
+	max-width: 600px;
+	margin: 0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
+.form input{
+	font-family:"Roboto",sans-serif;
+	outline: 1;
+	background:#99FFFF;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding:5px;
+	box-sizing: border-box;
+	font-size:14px;
+}
+.form button{
+	font-family:"Roboto",sans-serif;
+	text-transform: uppercase;
+	outline:0;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	border:0;
+	padding:15px;
+	color:#FFF ;
+	font-size:14px;
+	cursor: pointer; 
+}
+#footer{
+			background-color: rgba(0,0,0,1);
+			color:#fff;
+			padding-top:5px;
+			text-align:center;
+			height:80px;
+			position:relative;
+			top:50px;
+}

@@ -11,11 +11,55 @@
 			<a href="hotels.html"><div id="options_button" >Hotels</div></a>
 			<a href="Gallery.html"><div id="options_button" >Gallery of loved destinations</div></a>
 			<a href="Login.html"><div id="options_button" >Log in</div></a>
+      <a href="contact.html"><div id="options_button" >Contact us</div></a>
 	</div>
-	 <div class="booking-page">
+	<div class="booking-page">
+    <div class="form">
         <p>Find flight prices that suit your budget from different types of airlines and travel agents</p>
 
-    </div>
-  
+     <select id="option_return">
+	     <option value="none">Return</option>
+	     <option value="colour">One-way</option>
+	     <option value="normal">Multi-city</option>
+   </select>
+
+   <select id="option_">
+	   <option value="none">Adult</option>
+	   <option value="corn">Students over 18</option>
+	   <option value="curl">Youths 12-15</option>
+	   <option value="blow">Children 2-11</option>
+	   <option value="normal">Seat infants under 2</option>
+     <option value="normal">seat infants (below age 2)</option>
+	  </select>
+
+   <select id="Class_options">
+	  <option value="none">Economy</option>
+  	<option value="colour">Premium Economy</option>
+  	<option value="normal">Business</option>
+  	<option value="none">First</option>
+  	<option value="none">Multiple</option>
+   </select>
+
+  <p>Departing Area<input type="text" name="departing" required /></p>
+  <p><strong>TO</strong></p>
+	<p>Destination<input type="text " name="destination" required /></p>
+  <p>Departing date<input type="text " name="depart" required /></p>
+  <p>Return date<input type="text " name="return" required /></p>
+  <p>Email<input type="text " name="emailAdresss" required /></p>
+	<p>Your Telephone Number:<input type="text" name="telephone" required /><p>
+	<p>Please indicate by which method you would prefer to be contacted: <br />
+	
+  <input type="radio"  name="Contact" id="ContactPreference" value="telephone" />Telephone
+	<input type="radio" name="Contact" id="ContactPreference" value="Email" />Email</p>
+  <p>Comment anything of importance we should be aware of. . . . .</p>
+	<textarea rows="3" cols="80" id="inquiry" /></textarea>
+	<button><b><i>Submit</b></i></button>
+
+   </div>
+	</div>
+  <div id="footer">
+		The G's Flights website ©2020.  All rights reserved
+	</div>
+
   </body>
 </html>
