@@ -79,6 +79,16 @@ h1{
 	padding:45px;
 	text-align:center;
 }
+#container2{
+	color:#fff;
+	position:relative;
+	z-index:2;
+	background: rgba(0,0,0,0.7);
+	max-width: 1250px;
+	margin: 0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
 #footer{
 			background-color: rgba(0,0,0,1);
 			color:#fff;
